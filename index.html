@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1 - Mundo das Corridas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="download.png" alt="download.png">
+        <h1>Bem-vindo ao Mundo da Fórmula 1</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Fórmula 1</h2>
+        <p>A Fórmula 1 é a principal categoria do automobilismo mundial...</p>
+        <img src="download.jpeg" alt="download.jpeg">
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <img src="images.jpeg" alt="images.jpeg">
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <section id="quiz">
+        <img src="download (1).jpeg" alt="download (1).jpeg">
+        <h2>Quiz - Teste seus conhecimentos sobre Fórmula 1!</h2>
+        <form id="quizForm">
+            <div class="question">
+                <p>Quem é o piloto mais vitorioso da história da Fórmula 1?</p>
+                <input type="radio" id="hamilton" name="answer" value="Hamilton">
+                <label for="hamilton">Lewis Hamilton</label><br>
+                <input type="radio" id="schumacher" name="answer" value="Schumacher">
+                <label for="schumacher">Michael Schumacher</label><br>
+                <input type="radio" id="senna" name="answer" value="Senna">
+                <label for="senna">Ayrton Senna</label><br>
+            </div>
+            <button type="submit">Enviar Resposta</button>
+        </form>
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fórmula 1 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
